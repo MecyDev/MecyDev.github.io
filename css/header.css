@@ -1,0 +1,23 @@
+header {
+  width: 100%;
+  margin-top: 26px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+header p {
+  font-weight: bold;
+  color: var(--color_m);
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.padding-left {
+  padding-left: 20px;
+}
+
+.padding-right {
+  padding-right: 8px;
+}

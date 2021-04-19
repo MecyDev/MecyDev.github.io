@@ -1,0 +1,16 @@
+aside {
+  background-color: var(--color_back);
+}
+
+aside .container {
+  width: 90%;
+}
+
+aside p {
+  font-size: 1.4rem;
+}
+
+.hot-margin-top {
+  padding-top: 37px;
+  margin-bottom: 34px;
+}

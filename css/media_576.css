@@ -1,0 +1,67 @@
+@media screen and (min-width: 576px) {
+  header {
+    width: 95%;
+    margin-top: 0px;
+    margin-left: -12px;
+  }
+
+  .my-flex-baseline {
+    align-items: baseline;
+  }
+
+  .padding-left {
+    padding-left: 30px;
+  }
+
+  .wrap {
+    flex-wrap: nowrap;
+  }
+
+  .grow {
+    align-self: flex-end;
+    flex-grow: 2;
+  }
+
+  .card img {
+    width: 300px;
+  }
+
+  .card-infos {
+    width: 41%;
+    margin-left: 20px;
+  }
+
+  .btn-search i {
+    display: none;
+  }
+
+  .visible {
+    display: unset;
+  }
+
+  nav {
+    width: 44%;
+    margin-top: 0px;
+    margin-right: 12px;
+    order: 0;
+  }
+
+  nav li a {
+    border-bottom: none;
+    padding-top: 40px;
+  }
+
+  nav li:nth-child(2) a {
+    margin-right: 12px;
+  }
+
+  nav li a:hover {
+    color: var(--color_m);
+    border-bottom: none;
+    border-top: 3px solid var(--color_m);
+  }
+
+  .my-flex-desk {
+    justify-content: space-between;
+  }
+}

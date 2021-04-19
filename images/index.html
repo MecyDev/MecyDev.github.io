@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservia</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="shortcut icon" type="image/png" href="/images/icons/favicon.png"/>
+    <script
+      src="https://kit.fontawesome.com/578b74410f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="flex space-between flex-center flex-baseline wrap">
+          <p class="padding-left grow">
+            <a href="#"
+              ><img src="/images/logo/Reservia.svg" alt="Reservia Logo"
+            /></a>
+          </p>
+          <nav>
+            <ul class="flex space-between flex-center">
+              <li>
+                <a href="#hosts" class="tab">Hébergements</a>
+              </li>
+              <li>
+                <a href="#activities" class="tab">Activités</a>
+              </li>
+            </ul>
+          </nav>
+          <p class="padding-right"><a href="">S'inscrire</a></p>
+        </div>
+    </header>
+
+    <section class="search">
+      <div class="container">
+      <h1>
+        Trouvez votre hébergement pour des vacances de rêve
+      </h1>
+      <p>En plein centre ville ou en pleine nature</p>
+      <div class="flex search-container">
+        <i class="fas fa-map-marker-alt map-icon"></i>
+        <input type="search" id="search" value="Marseille, France" />
+        <a href="" class="btn-search"><i class="fas fa-search">Recherche</i></a>
+      </div>
+
+      <h2>Filtres</h2>
+
+      <div class="flex space-between flex-center filters">
+        <div class="btn-filter bold">
+          <i class="fas fa-money-bill-wave btn-filter-icon"></i>
+          <a href="" class="btn-filter-text">Économique</a>
+        </div>
+        <div class="btn-filter bold">
+          <i class="fas fa-child fa-lg btn-filter-icon adjust"></i>
+          <a href="" class="btn-filter-text">Familial</a>
+        </div>
+        <div class="btn-filter bold">
+          <i class="fas fa-heart btn-filter-icon adjust"></i>
+          <a href="" class="btn-filter-text">Romantique</a>
+        </div>
+        <div class="btn-filter bold">
+          <i class="fas fa-dog btn-filter-icon adjust"></i>
+          <a href="" class="btn-filter-text">Animaux autorisés</a>
+        </div>
+      </div>
+      <div class="flex flex-center margin">
+        <i class="fas fa-info fa-xs btn-info"></i>
+        <p>
+          Plus de 500 logements sont disponibles<br />
+          dans cette ville
+        </p>
+      </div>
+    </div>
+    </section>
+
+<!------------------Section Recommande--------------->
+
+    <main role="main">
+      <aside>
+        <div class="container">
+          <div class="flex space-between flex-center hot-icon">
+            <h1>Les plus populaires</h1>
+            <i class="fas fa-chart-line fa-lg"></i>
+          </div>
+          <div class="list">
+            <div class="card-container">
+              <div class="card flex space-between">
+                <figure>
+                  <img
+                    src="/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                    alt="Hôtel Le soleil du matin"
+                  />
+                </figure>
+                <div class="flex space-around column card-infos">
+                  <div>
+                    <h3>Hôtel Le soleil du matin</h3>
+                    <p>Nuit à partir de 128<b>€</b></p>
+                  </div>
+                  <div class="rating">
+                    <a href="#5" title="Donner 5 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#4" title="Donner 4 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#3" title="Donner 3 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#2" title="Donner 2 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#1" title="Donner 1 étoile"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="card-container">
+            <div class="card flex space-between">
+              <figure>
+                <img
+                  src="/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                  alt="Au coeur de l'eau Chambres d'hôtes"
+                />
+              </figure>
+              <div class="flex space-around column card-infos">
+                <div>
+                  <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                  <p>Nuit à partir de 71<b>€</b></p>
+                </div>
+                <div class="rating">
+                  <a href="#5" title="Donner 5 étoiles"
+                    ><i class="fas fa-star fa-xs"></i
+                  ></a>
+                  <a href="#4" title="Donner 4 étoiles"
+                    ><i class="fas fa-star fa-xs"></i
+                  ></a>
+                  <a href="#3" title="Donner 3 étoiles"
+                    ><i class="fas fa-star fa-xs"></i
+                  ></a>
+                  <a href="#2" title="Donner 2 étoiles"
+                    ><i class="fas fa-star fa-xs"></i
+                  ></a>
+                  <a href="#1" title="Donner 1 étoile"
+                    ><i class="fas fa-star fa-xs"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card-container">
+          <div class="card flex space-between">
+            <figure>
+              <img
+                src="/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                alt="Hôtel Tout bleu et Blanc"
+              />
+            </figure>
+            <div class="flex space-around column card-infos">
+              <div>
+                <h3>Hôtel Tout bleu et Blanc</h3>
+                <p>Nuit à partir de 68<b>€</b></p>
+              </div>
+              <div class="rating">
+                <a href="#5" title="Donner 5 étoiles"
+                  ><i class="fas fa-star fa-xs"></i
+                ></a>
+                <a href="#4" title="Donner 4 étoiles"
+                  ><i class="fas fa-star fa-xs"></i
+                ></a>
+                <a href="#3" title="Donner 3 étoiles"
+                  ><i class="fas fa-star fa-xs"></i
+                ></a>
+                <a href="#2" title="Donner 2 étoiles"
+                  ><i class="fas fa-star fa-xs"></i
+                ></a>
+                <a href="#1" title="Donner 1 étoile"
+                  ><i class="fas fa-star fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+      </div>
+          </div>
+        </div>
+      </aside>
+
+<!--------------------- Section Hebergement------------------------------>
+
+      <section id="hosts" class="hosts">
+        <div class="container">
+          <h1>Hébergements à Marseille</h1>
+          <div class="list">
+            <div class="card-container card-container-host">
+              <div class="card flex space-between column">
+                <figure>
+                  <img
+                    src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                    alt="Auberge la Cannebière"
+                  />
+                </figure>
+                <div class="card-infos-hosts">
+                    <h3>Auberge la Cannebière</h3>
+                    <p>Nuit à partir de 25<b>€</b></p>
+                  <div class="rating rating-host">
+                    <a href="#5" title="Donner 5 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#4" title="Donner 4 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#3" title="Donner 3 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#2" title="Donner 2 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#1" title="Donner 1 étoile"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container card-container-host">
+              <div class="card flex space-between column">
+                <figure>
+                  <img
+                    src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                    alt="Hôtel du port"
+                  />
+                </figure>
+                <div class="card-infos-hosts">
+                  <h3>Hôtel du port</h3>
+                  <p>Nuit à partir de 52<b>€</b></p>
+                  <div class="rating rating-host">
+                    <a href="#5" title="Donner 5 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#4" title="Donner 4 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#3" title="Donner 3 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#2" title="Donner 2 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#1" title="Donner 1 étoile"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container card-container-host">
+              <div class="card flex space-between column">
+                <figure>
+                  <img
+                    src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                    alt="Hôtel Les mouettes"
+                  />
+                </figure>
+                <div class="card-infos-hosts">
+                  <h3>Hôtel Les mouettes</h3>
+                  <p>Nuit à partir de 76<b>€</b></p>
+                  <div class="rating rating-host">
+                    <a href="#5" title="Donner 5 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#4" title="Donner 4 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#3" title="Donner 3 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#2" title="Donner 2 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#1" title="Donner 1 étoile"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container card-container-host">
+              <div class="card flex space-between column">
+                <figure>
+                  <img
+                    src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                    alt="Hôtel de la mer"
+                  />
+                </figure>
+                <div class="card-infos-hosts">
+                  <h3>Hôtel de la mer</h3>
+                  <p>Nuit à partir de 46<b>€</b></p>
+                  <div class="rating rating-host">
+                    <a href="#5" title="Donner 5 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#4" title="Donner 4 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#3" title="Donner 3 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#2" title="Donner 2 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#1" title="Donner 1 étoile"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container card-container-host">
+              <div class="card flex space-between column">
+                <figure>
+                  <img
+                    src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                    alt="Auberge Le Panier"
+                  />
+                </figure>
+                <div class="card-infos-hosts">
+                  <h3>Auberge Le Panier</h3>
+                  <p>Nuit à partir de 23<b>€</b></p>
+                  <div class="rating rating-host">
+                    <a href="#5" title="Donner 5 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#4" title="Donner 4 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#3" title="Donner 3 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#2" title="Donner 2 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#1" title="Donner 1 étoile"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container card-container-host">
+              <div class="card flex space-between column">
+                <figure>
+                  <img
+                    src="/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                    alt="Hôtel chez Amina"
+                  />
+                </figure>
+                <div class="card-infos-hosts">
+                  <h3>Hôtel chez Amina</h3>
+                  <p>Nuit à partir de 96<b>€</b></p>
+                  <div class="rating rating-host">
+                    <a href="#5" title="Donner 5 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#4" title="Donner 4 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#3" title="Donner 3 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#2" title="Donner 2 étoiles"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                    <a href="#1" title="Donner 1 étoile"
+                      ><i class="fas fa-star fa-xs"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="plus"><a href="">Afficher plus</a></p>
+            
+          </div>
+        </div>
+      </section>
+
+<!-----------------------Section activite---------------------->
+
+      <section id="activities" class="activities">
+        <div class="container">
+          <h1>Activités à Marseille</h1>
+          <div class="list">
+            <div class="card-container card-container-activities">
+            <div class="card felx space-between column">
+              <div>
+                <img
+                  src="/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                  alt="Vieux Port"
+                />
+              </div>
+              <div class="activities-name">
+                <h3>Vieux Port</h3>
+              </div>
+            </div>
+            </div>
+            <div class="card-container card-container-activities">
+            <div class="card felx space-between column">
+              <div>
+                <img
+                  src="/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                  alt="Fort de Pomègues"
+                />
+              </div>
+              <div class="activities-name">
+                <h3>Fort de Pomègues</h3>
+              </div>
+            </div>
+            </div>
+            <div class="card-container card-container-activities">
+            <div class="card felx space-between column">
+              <div>
+                <img
+                  src="/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                  alt="Îles du Frioul"
+                />
+              </div>
+              <div class="activities-name">
+                <h3>Îles du Frioul</h3>
+              </div>
+            </div>
+            </div>
+            <div class="card-container card-container-activities">
+            <div class="card felx space-between column">
+              <div>
+                <img
+                  src="/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                  alt="Parc Nationnal de Calanques"
+                />
+              </div>
+              <div class="activities-name">
+                <h3>Parc Nationnal de Calanques</h3>
+              </div>
+            </div>
+            </div>
+            <div class="card-container card-container-activities">
+            <div class="card felx space-between column">
+              <div>
+                <img
+                  src="/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt="Notre-Dame-de-la-Garde"
+                />
+              </div>
+              <div class="activities-name">
+                <h3>Notre-Dame-de-la-Garde</h3>
+              </div>
+            </div>
+            </div>
+            <div class="card-container card-container-activities">
+            <div class="card felx space-between column">
+              <div>
+                <img
+                  src="/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                  alt="Parc Longchamp"
+                />
+              </div>
+              <div class="activities-name">
+                <h3>Parc Longchamp</h3>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer role="footer">
+      <div class="container flex-desk">
+        <div>
+          <h2>A propos</h2>
+          <ul>
+            <li><a href=""></a>Fonctionnement du site</a></li>
+            <li><a href=""></a>Conditions générales de ventes</a></li>
+            <li><a href=""></a>Données et confidentialité</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Nos hébergements</h2>
+          <ul>
+            <li><a href="">Charte qualité</a></li>
+            <li><a href="">Soumettre vôtre hôlel</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Assistance</h2>
+          <ul>
+            <li><a href="">Centre d'aide</a></li>
+            <li><a href="">Nous contacter</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

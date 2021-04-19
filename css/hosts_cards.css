@@ -1,0 +1,24 @@
+.card-container-host {
+  height: 196px;
+}
+
+.hosts .card img {
+  width: 100%;
+  height: 115px;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-infos-hosts {
+  width: 100%;
+  margin-left: 11px;
+  margin-top: 4px;
+}
+
+.card-infos-hosts p {
+  font-size: 1.4rem;
+  margin-top: 4px;
+}
+
+.rating-host {
+  margin-top: 5px;
+}

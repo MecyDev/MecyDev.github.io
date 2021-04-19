@@ -1,0 +1,45 @@
+.filters {
+  flex-wrap: wrap;
+  margin-top: 13px;
+}
+
+.filter-title {
+  font-size: 1.8rem;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.btn-filter-container {
+  margin-right: 10px;
+  margin-bottom: 11px;
+}
+
+.btn-filter {
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 14px 15px 14px 5px;
+  border-radius: 30px;
+  border: 2px solid var(--color_back);
+}
+
+.btn-filter-icon {
+  position: relative;
+  left: -7px;
+  padding: 15px;
+  background-color: var(--color_s);
+  color: var(--color_m);
+  border: 2px solid var(--color_s);
+  border-radius: 50%;
+}
+
+.icon-size-correct {
+  padding: 14px 13px 14px 13px;
+}
+
+.btn-filter:hover {
+  background-color: var(--color_s);
+}
+
+.btn-filter:focus {
+  background-color: var(--color_s);
+}

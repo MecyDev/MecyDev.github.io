@@ -1,0 +1,17 @@
+@media screen and (min-width: 992px) {
+  header {
+    margin-left: 2px;
+  }
+
+  .desktop {
+    flex-direction: row;
+  }
+
+  .btn-filter-container {
+    margin-right: 25px;
+  }
+
+  .card img {
+    width: 200px;
+  }
+}

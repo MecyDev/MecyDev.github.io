@@ -1,0 +1,46 @@
+.container {
+  width: 93%;
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.my-flex {
+  display: flex;
+}
+
+.my-column {
+  flex-direction: column;
+}
+
+.my-space-between {
+  justify-content: space-between;
+}
+
+.my-space-around {
+  justify-content: space-around;
+}
+
+.my-flex-center {
+  align-items: center;
+}
+
+.list {
+  margin-top: -10px;
+  padding-bottom: 25px;
+}
+
+.icon-info {
+  color: var(--color_m);
+  padding: 5px 9px;
+  border-radius: 50%;
+  border: 2px solid var(--color_back);
+  margin-right: 10px;
+}
+
+.margin {
+  margin-top: 20px;
+  margin-bottom: 37px;
+}

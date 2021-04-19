@@ -1,0 +1,13 @@
+@media screen and (min-width: 1200px) {
+  header {
+    margin-left: 10px;
+  }
+
+  .btn-filter {
+    font-size: 1.8rem;
+  }
+
+  .card img {
+    width: 250px;
+  }
+}
